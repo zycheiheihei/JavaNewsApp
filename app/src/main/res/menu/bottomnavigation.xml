@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/news_button"
+        android:icon="@drawable/new_icon"
+        android:title="疫情新闻"
+        android:enabled="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/data_button"
+        android:icon="@drawable/data_icon"
+        android:title="疫情数据"
+        android:enabled="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/graph_button"
+        android:icon="@drawable/graph_icon"
+        android:title="疫情图谱"
+        android:enabled="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/class_button"
+        android:icon="@drawable/class_icon"
+        android:title="新闻聚类"
+        android:enabled="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/scholar_button"
+        android:icon="@drawable/scholar_icon"
+        android:title="知疫学者"
+        android:enabled="true"
+        app:showAsAction="always"/>
+</menu>
